@@ -1,0 +1,124 @@
+
+/* Diseño general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf3ed;
+    color: #263b30;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+/* Contenedor principal */
+.contenedor {
+    max-width: 520px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+/* Encabezado del formulario */
+#encabezado {
+    background-color: #347653;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0 0 10px;
+}
+
+#encabezado p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Espacios del formulario */
+#formulario-registro {
+    padding: 25px;
+}
+
+.campo {
+    margin-bottom: 17px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+/* Diseño de los campos de texto */
+.campo input,
+.campo textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #263b30;
+    background-color: #fafdfb;
+    border: 1px solid #a8c4b2;
+    border-radius: 7px;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    outline: 2px solid #5a9b73;
+    border-color: #347653;
+}
+
+/* Opciones de intereses */
+.intereses {
+    border: 1px solid #a8c4b2;
+    border-radius: 8px;
+    background-color: #f4faf5;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.intereses legend {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.intereses label {
+    display: block;
+    font-size: 14px;
+    margin: 9px 0;
+}
+
+.intereses input {
+    accent-color: #347653;
+    margin-right: 8px;
+}
+
+/* Botón de registro */
+#boton-registro {
+    width: 100%;
+    padding: 13px;
+    background-color: #347653;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#boton-registro:hover {
+    background-color: #24583c;
+}
+
+/* Mensaje al completar el formulario */
+#mensaje {
+    text-align: center;
+    color: #24583c;
+    font-size: 14px;
+    font-weight: bold;
+}
